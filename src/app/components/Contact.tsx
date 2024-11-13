@@ -3,9 +3,18 @@ import React from 'react'
 const Contact = () => {
   return (
     <div id='Contact'>
-        <section className="text-gray-600 body-font relative">
+  
+        <section className="text-gray-600 body-font relative bg-black">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+    <h1 className="title-font sm:text-4xl text-3xl ml-[30rem] font-medium text-white ">
+        Contact 
+        
+      </h1>
+      </div>
+   
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+   
       <iframe
         width="100%"
         height="100%"
@@ -40,13 +49,13 @@ const Contact = () => {
       </div>
     </div>
     <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-      <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
+      <h2 className="text-blue-500 text-lg mb-1 font-medium title-font">
         Contact
       </h2>
       <p className="leading-relaxed mb-5 text-gray-600">
         feel free to Contact me
       </p>
-      <div className="relative mb-4">
+      <div className="relative mb-3">
         <label htmlFor="name" className="leading-7 text-sm text-gray-600">
           Name
         </label>
